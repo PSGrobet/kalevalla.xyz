@@ -1,12 +1,12 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(170, 187, 185);
     color: rgb(92, 92, 92);
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.125rem;
     line-height: 1.5;
     text-align: justify;
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: "Fredericka the Great", serif;
     font-weight: 600;
     font-style: normal;
@@ -23,15 +23,13 @@ main {
     margin: 2rem auto;
 }
 a {
-    color: rgb(25, 170, 170);
+    color: rgb(96, 126, 165);
     text-decoration: none;
+} 
+a:hover {
+    color: rgb(65, 95, 135);
+    text-decoration: underline;
 }
-@font-face {
-    font-family: "Fredericka the Great";
-    src: url('fonts/Fredericka_the_Great.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal; 
-}   
 .fredericka-the-great-regular {
   font-family: "Fredericka the Great", serif;
   font-weight: 400;
@@ -44,4 +42,7 @@ figure {
 figure img {
     max-width: 100%;
     height: auto;   
+}
+.menu h3 {
+    display: inline;
 }
