@@ -12,6 +12,9 @@ h1, h2, h3 {
     font-style: normal;
     text-align: center;
 }
+h4 {
+    font-family: "Fredericka the Great", serif;
+}
 h1 {
     font-size: 3rem;
 }
@@ -50,15 +53,31 @@ figure img {
 
 hr {
     margin: 3rem auto;
+    background-color: rgb(92, 92, 92);
+    color: rgb(92, 92, 92);
 }
 
 nav {
     display: flex;
     justify-content: space-evenly;
 }
+header {
+    max-width: 56rem;
+    margin: 0 auto;
+}
 hr.header-top {
     margin-bottom: 0.5rem;
 }
 hr.header-bottom {
     margin-top: 0.5rem;
+}
+@media screen and (max-width: 57rem){
+    main {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+    figure {
+        margin: 0;
+    }
 }
