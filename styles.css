@@ -19,7 +19,7 @@ h2{
     font-size: 2rem;
 }
 main {
-    max-width: 40rem;
+    max-width: 56rem;
     margin: 2rem auto;
 }
 a {
@@ -45,4 +45,8 @@ figure img {
 }
 .menu h3 {
     display: inline;
+}
+
+hr {
+    margin: 3rem auto;
 }
