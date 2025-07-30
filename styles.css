@@ -23,7 +23,7 @@ main {
     margin: 2rem auto;
 }
 a {
-    color: rgb(96, 126, 165);
+    color: rgb(20, 72, 140);
     text-decoration: none;
 } 
 a:hover {
@@ -43,10 +43,22 @@ figure img {
     max-width: 100%;
     height: auto;   
 }
-.menu h3 {
+.menu h3, nav h3 {
     display: inline;
+    color:rgb(92, 92, 92)
 }
 
 hr {
     margin: 3rem auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+hr.header-top {
+    margin-bottom: 0.5rem;
+}
+hr.header-bottom {
+    margin-top: 0.5rem;
 }
