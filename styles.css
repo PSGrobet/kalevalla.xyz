@@ -1,8 +1,10 @@
 body {
     background-color: rgb(170, 187, 185);
     color: rgb(92, 92, 92);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.125rem;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
     line-height: 1.5;
     text-align: justify;
 }
@@ -53,8 +55,6 @@ figure img {
 
 hr {
     margin: 3rem auto;
-    background-color: rgb(92, 92, 92);
-    color: rgb(92, 92, 92);
 }
 
 nav {
@@ -75,7 +75,7 @@ hr.header-bottom {
     main {
         padding-left: 1rem;
         padding-right: 1rem;
-        font-size: 1rem;
+        font-size: 1.125rem;
     }
     figure {
         margin: 0;
