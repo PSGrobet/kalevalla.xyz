@@ -71,6 +71,11 @@ hr.header-top {
 hr.header-bottom {
     margin-top: 0.5rem;
 }
+.alert1 {
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    padding: 1rem;
+}
 @media screen and (max-width: 57rem){
     main {
         padding-left: 1rem;
