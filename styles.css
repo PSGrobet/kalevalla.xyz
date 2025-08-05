@@ -42,12 +42,21 @@ a:hover {
 }
 figure {
     max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 figure img {
+    display: block;
+    margin: auto;
     max-width: 100%;
     height: auto;   
 }
+figcaption {
+    margin-top: 1rem;
+    text-align: center;
+}
+
 .menu h3, nav h3 {
     display: inline;
     color:rgb(92, 92, 92)
@@ -84,5 +93,8 @@ hr.header-bottom {
     }
     figure {
         margin: 0;
+    }
+    nav h3 {
+        font-size: 1.2rem;        
     }
 }
