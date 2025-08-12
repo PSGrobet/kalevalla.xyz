@@ -1,38 +1,45 @@
 body {
-    background-color: rgb(170, 187, 185);
-    color: rgb(92, 92, 92);
-    font-family: "Share Tech Mono", monospace;
+    background-color: rgb(14, 19, 29);
+    color: rgb(200, 200, 200);
+    font-family: "WorkSans-Light", monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 1.25rem;
     line-height: 1.5;
     text-align: justify;
 }
+
 h1, h2, h3 {
-    font-family: "Fredericka the Great", serif;
+    font-family: "BluuNext-Bold", serif;
     font-weight: 600;
     font-style: normal;
     text-align: center;
 }
 h4 {
-    font-family: "Fredericka the Great", serif;
+    font-family: "BluuNext-Bold", serif;
+    font-size: 1.5rem;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 h2{
+    font-size: 3rem;
+}
+h3 {
     font-size: 2rem;
 }
-main {
+main, footer {
     max-width: 56rem;
     margin: 2rem auto;
 }
+footer {
+    font-size: 1rem;
+}
 a {
-    color: rgb(20, 72, 140);
+    color: rgb(145, 255, 253);
     text-decoration: none;
 } 
 a:hover {
-    color: rgb(65, 95, 135);
     text-decoration: underline;
 }
 .fredericka-the-great-regular {
@@ -59,7 +66,7 @@ figcaption {
 
 .menu h3, nav h3 {
     display: inline;
-    color:rgb(92, 92, 92)
+    color: rgb(200, 200, 200);
 }
 
 hr {
@@ -84,6 +91,26 @@ hr.header-bottom {
     border: 1px solid gainsboro;
     border-radius: 3px;
     padding: 1rem;
+
+}
+
+@font-face {
+  font-family: 'EBGaramond12-Regular';
+  src: url('fonts/EBGaramond12-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BluuNext-Bold';
+  src: url('fonts/BluuNext-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WorkSans-Light';
+  src: url('fonts/WorkSans-Light.otf') format('opentype');
+  font-weight: light;
+  font-style: normal;
 }
 @media screen and (max-width: 57rem){
     main {
