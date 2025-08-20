@@ -8,6 +8,10 @@ body {
     line-height: 1.5;
     text-align: justify;
 }
+strong {
+    color: rgb(3, 255, 205);
+    font-weight: 700;
+}
 
 h1, h2, h3 {
     font-family: "BluuNext-Bold", serif;
