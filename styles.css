@@ -9,8 +9,8 @@ body {
     text-align: justify;
 }
 strong {
-    color: rgb(3, 255, 205);
-    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
 }
 
 h1, h2, h3 {
@@ -115,6 +115,12 @@ hr.header-bottom {
   src: url('fonts/WorkSans-Light.otf') format('opentype');
   font-weight: light;
   font-style: normal;
+}
+@font-face {
+    font-family: 'FliegeMono-Regular';
+    src: url('fonts/FliegeMono-Regular.otf') format('opentype');
+    font-weight: regular;
+    font-style: normal;
 }
 @media screen and (max-width: 57rem){
     main {

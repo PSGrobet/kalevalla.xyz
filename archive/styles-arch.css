@@ -1,0 +1,9 @@
+body {
+    font-family: 'FliegeMono-Regular', monospace;
+    max-width: 65rem;
+    padding: 1.5rem;
+    margin: auto;
+}
+h1, h2, h3, h4 {
+    font-family: 'FliegeMono-Regular', monospace;
+}
