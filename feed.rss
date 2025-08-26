@@ -8,12 +8,9 @@
 <item>
 <title>Remodelling Soon</title>
 <description>
-    <p>
-            I'm thinking I have gathered enough blog posts here that it's probably worthit to switch to a more normal blog format, with an index and separate page for each blog entry; easier to share independently, more structured and whatnot, and I think it's also better for RSS sharing, which I wan to implement soon.
-        </p>
-        <p>
-            That implies a bit of work restructuring the site and links, and all that, so it might take me a couple days <em>(or a couple hours, depending on how much my job interferes my hobby)</em>. I will say, hosting this on Git and being able ti update evrything with just a <code>git push</code> is awesome; the downside is I cann't have any kind of backend, and I've been learning some PHP, and thinking about setting up some kind of comment box, or something like that.
-        </p>
+    I'm thinking I have gathered enough blog posts here that it's probably worthit to switch to a more normal blog format, with an index and separate page for each blog entry; easier to share independently, more structured and whatnot, and I think it's also better for RSS sharing, which I wan to implement soon.
+
+    That implies a bit of work restructuring the site and links, and all that, so it might take me a couple days (or a couple hours, depending on how much my job interferes my hobby). I will say, hosting this on Git and being able ti update evrything with just a git push is awesome; the downside is I cann't have any kind of backend, and I've been learning some PHP, and thinking about setting up some kind of comment box, or something like that.
 </description>
 <link>https://www.kalevalla.xyz/blog/007-remodelling-soon.html</link>
 </item>
