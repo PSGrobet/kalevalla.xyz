@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+<title>Kalevalla.xyz</title>
+<description>Articles and blog entries from kalevalla.xyz.</description>
+<link>http://kalevalla.xyz</link>
+
+<item>
+<title>Rempdelling Soon</title>
+<description>I've been thinking about doing some restructuring around the site</description>
+<link>https://www.kalevalla.xyz/blog/007-remodelling-soon.html</link>
+</item>
+
+<item>
+<title>Average Ubuntu Enjoyer</title>
+<description>I've been using Linux as my "daily driver" OS for the past, I think, 5 or 6 years now, more than the average Linux user, and I've come back to Ubuntu. It just werks</description>
+<link>https://www.kalevalla.xyz/blog/006-average-ubuntu-enjoyer.html</link>
+</item>
+
+<item>
+<title>Give me the adds but keep the trackers</title>
+<description>Some people complain that the internet started going to shit when every page started displaying adds. Well, it couldn't just be free forever, right?</description>
+<link>https://www.kalevalla.xyz/blog/005-keep.the.trackers.html</link>
+</item>
+
+<item>
+<title>Recovering Engagement-o-Holic</title>
+<description>One of these days I'm going to pay for a proper hosting service just so I can set up a php form so that you, my awesome reader, can send me a message and tell me how much my writing means to you.</description>
+<link>https://www.kalevalla.xyz/blog/004-engagement.html</link>
+</item>
+
+<item>
+<title>Wake up, it's 1995</title>
+<description>'ve come to the realization that what the small web / old web means to me is more than just than just nostalgia.</description>
+<link>https://www.kalevalla.xyz/blog/003-its-1995.html</link>
+</item>
+
+<item>
+<title>¿Entonces estoy en contra de la IA?</title>
+<description>En una lectura inicial de la entrada anterior, podría parecer a primera vista que estoy en contra de usar programas de inteligencia artificial, que opino que de alguna manera equivale a "hacer trampa". No del todo. Tal vez es necesario matizar eso un poco.</description>
+<link>https://www.kalevalla.xyz/blog/002-contra-IA.html</link>
+</item>
+
+<item>
+<title>Is the Internet dead?</title>
+<description>Just because a lot of the content you read or watch in social media is generated using AI LLM's or image generators, does that mean that the Internet is dead? After all, there is still someone using their creativity to prompt the AI, right?</description>
+<link>https://www.kalevalla.xyz/blog/001-is-the-internet-dead.html</link>
+</item>
+
+<item>
+<title>The Free Web - a manifesto</title>
+<description>Web Renaissance, Web Revival, Small-Web, Retro Web, Indie Web, Personal Web, Web0, Web 3.0... What's this all about anyway?</description>
+<link>https://www.kalevalla.xyz/the-free-web.html</link>
+</item>
+</channel>
+</rss>
