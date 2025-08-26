@@ -97,7 +97,13 @@ hr.header-bottom {
     padding: 1rem;
 
 }
-
+.blog-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-nav span {
+    color: chartreuse;
+}
 @font-face {
   font-family: 'EBGaramond12-Regular';
   src: url('fonts/EBGaramond12-Regular.otf') format('opentype');
