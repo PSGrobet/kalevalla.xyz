@@ -44,8 +44,10 @@ a {
     text-decoration: none;
 } 
 a:hover {
-    text-decoration: underline;
+    color: #17a6ff;
 }
+
+
 .fredericka-the-great-regular {
   font-family: "Fredericka the Great", serif;
   font-weight: 400;
@@ -72,6 +74,10 @@ figcaption {
 .menu h3, nav h3 {
     display: inline;
     color: rgb(200, 200, 200);
+}
+
+.menu h3:hover, nav h3:hover {
+    color: #17a6ff;
 }
 
 hr {
