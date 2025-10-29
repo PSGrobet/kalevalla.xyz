@@ -7,14 +7,25 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/shield-icon.png" type="image/png">
 	<style>
-		.ballot-empty {
-			color: #969696;
+		.zero, .one, .two, .three {
+			font-size: 3rem;
+			line-height: 1.5rem;
+			vertical-align: middle;
 		}
-		.ballot-checked {
-			color: #04da00;
+		.zero::after, .one::after, .two::after, .three::after {
+			content: "◉";
 		}
-		.ballot-x {
-			color: #da0004;
+		.zero {
+			color: #a30e00;
+		}
+		.one {
+			color: #a35a00;
+		}
+		.two {
+			color: #8fee00;
+		}
+		.three {
+			color: #1dd002;
 		}
 		td:first-child {
 			width: 100%;
@@ -39,31 +50,38 @@
 	 ballot box x:         &#128503;
 -->
 		<h2>Phase 1: JavaScript Fundamentals</h2>
+		<h4>Color code:</h4> 
+		<ul>
+			<li style="list-style-type:none;"><span class="three"></span> "pretty much functional"</li>
+			<li style="list-style-type:none;"><span class="two"></span> "understand but needs work"</li>
+			<li style="list-style-type:none;"><span class="one"></span> "somewhat familiar"</li>
+			<li style="list-style-type:none;"><span class="zero"></span> "what's that?"</li>
+		</ul>
 		<h4>Core Syntax and Basics</h4>
 		<table>
 			<tr>
 				<td>Variables <code>let</code>, <code>const</code> (forget <code>var</code>)</td>
-				<td><span class="ballot-checked">✅</span></td>
+				<td><span class="three"></span></td>
 			</tr>
 			<tr>
 				<td>Data types: strings, numbers, booleans, null, undefined</td>
-				<td><span class="ballot-checked">✅</span></td>
+				<td><span class="three"></span></td>
 			</tr>
 			<tr>
 				<td>Template literals (backticks)</td>
-				<td><span class="ballot-checked">✅</span></td>
+				<td><span class="three"></span></td>
 			</tr>
 			<tr>
 				<td>Comments and code organization</td>
-				<td><span class="ballot-checked">✅</span></td>
+				<td><span class="three"></span></td>
 			</tr>
 			<tr>
 				<td>Basic operators (arithmetic, comparison, logical)</td>
-				<td><span class="ballot-checked">✅</span></td>
+				<td><span class="three"></span></td>
 			</tr>
 			<tr>
 				<td>Type coercion and conversion</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 		</table>
 
@@ -71,31 +89,31 @@
 		<table>
 			<tr>
 				<td>Function declarations</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>Function expressions</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
-				<td>Arrow functions (<code>=></code>)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td>Arrow functions (<code>=&gt;</code>)</td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Parameters and arguments</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Return values</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Default parameters</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>Function scope</td>
-				<td><span class="ballot-checked">✅</span></td>
+				<td><span class="three"></span></td>
 			</tr>
 		</table>
 
@@ -103,23 +121,23 @@
 		<table>
 			<tr>
 				<td><code>if/else</code> statements</td>
-				<td><span class="ballot-checked">✅</span></td>
+				<td><span class="three"></span></td>
 			</tr>
 			<tr>
 				<td>Ternary operator (<code>condition ? true : false</code>)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td><code>switch</code> statements</td>
-				<td><span class="ballot-checked">✅</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Truthy and falsy values</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
-				<td>Logical operators (<code>&&</code>, <code>||</code>, <code>!</code>)</td>
-				<td><span class="ballot-checked">✅</span></td>
+				<td>Logical operators (<code>&amp;&amp;</code>, <code>||</code>, <code>!</code>)</td>
+				<td><span class="three"></span></td>
 			</tr>
 		</table>
 
@@ -127,19 +145,19 @@
 		<table>
 			<tr>
 				<td><code>for</code> loops</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td><code>while</code> loops</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td><code>for...of</code> loops</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>break</code> and <code>continue</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 		</table>
 
@@ -149,47 +167,47 @@
 		<table>
 			<tr>
 				<td>Creating and accessing arrays</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Array length and indices</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Adding/removing items (push, pop, shift, unshift)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td><code>forEach()</code> - iterate through arrays</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td><code>map()</code> - transform array items</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zer"></span></td>
 			</tr>
 			<tr>
 				<td><code>filter()</code> - select items that match criteria</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>find()</code> - find a single item</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>reduce()</code> - combine array into single value</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>sort()</code> and <code>reverse()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>Spread operator with arrays (<code>...arr</code>)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Array destructuring</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -199,43 +217,43 @@
 		<table>
 			<tr>
 				<td>Creating objects (literal notation)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Accessing properties (dot vs bracket notation)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Adding and modifying properties</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Deleting properties</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Nested objects</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Object methods</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>this</code> keyword basics</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Object destructuring</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Spread operator with objects</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>Object.keys()</code>, <code>Object.values()</code>, <code>Object.entries()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -245,39 +263,40 @@
 		<table>
 			<tr>
 				<td>Understanding the DOM</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
+				
 			</tr>
 			<tr>
 				<td><code>document.querySelector()</code> and <code>querySelectorAll()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>Changing text content</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Changing HTML content</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Modifying styles</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Adding/removing CSS classes</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>Creating elements</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>Appending elements</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>Removing elements</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -285,31 +304,31 @@
 		<table>
 			<tr>
 				<td><code>addEventListener()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Click events</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="two"></span></td>
 			</tr>
 			<tr>
 				<td>Input events</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>Form events</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Event object</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>preventDefault()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Event delegation</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -319,19 +338,19 @@
 		<table>
 			<tr>
 				<td>Callbacks</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>Higher-order functions</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>setTimeout()</code> and <code>setInterval()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Closures (basic understanding)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -339,31 +358,31 @@
 		<table>
 			<tr>
 				<td>Synchronous vs asynchronous code</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Callbacks and callback hell</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Promises basics</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>.then()</code> and <code>.catch()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>async</code> and <code>await</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Error handling with try/catch</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Multiple promises (<code>Promise.all()</code>)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -371,35 +390,35 @@
 		<table>
 			<tr>
 				<td>What is an API?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td><code>fetch()</code> API</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>GET requests</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Handling JSON data</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Displaying API data in the DOM</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Loading states</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Error handling for API calls</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>POST requests basics</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -410,15 +429,15 @@
 		<table>
 			<tr>
 				<td><code>import</code> and <code>export</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Default exports vs named exports</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Organizing code into modules</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -428,19 +447,19 @@
 		<table>
 			<tr>
 				<td><code>localStorage.setItem()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>localStorage.getItem()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>localStorage.removeItem()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Storing and retrieving JSON</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -460,27 +479,27 @@
 		<table>
 			<tr>
 				<td>What is React and why use it?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="one"></span></td>
 			</tr>
 			<tr>
 				<td>JSX syntax</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Creating your first component</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Components as functions</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Rendering components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Self-closing tags and fragments</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -488,31 +507,31 @@
 		<table>
 			<tr>
 				<td>What are props?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Passing props to components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Accessing props</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Props are read-only</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Destructuring props</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Children prop</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Default props</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -522,43 +541,43 @@
 		<table>
 			<tr>
 				<td>What is state?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>useState()</code> hook</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Reading state</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Updating state</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>State vs props</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>State is isolated to components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Multiple state variables</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>State with objects and arrays</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Updating object state immutably</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Updating array state immutably</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -569,27 +588,27 @@
 		<table>
 			<tr>
 				<td>onClick events</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>onChange events (forms)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>onSubmit events</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Event handler functions</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Passing arguments to event handlers</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Preventing default behavior</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -597,19 +616,19 @@
 		<table>
 			<tr>
 				<td>If/else in React</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Ternary operators in JSX</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
-				<td><code>&&</code> operator for conditional rendering</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><code>&amp;&amp;<code> operator for conditional rendering</td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Rendering nothing (<code>null</code>)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -617,19 +636,19 @@
 		<table>
 			<tr>
 				<td>Rendering arrays with <code>map()</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>The <code>key</code> prop</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Why keys matter</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Using index as key (and why to avoid it)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -639,35 +658,35 @@
 		<table>
 			<tr>
 				<td>Controlled components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Handling text inputs</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Handling textareas</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Handling select dropdowns</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Handling checkboxes</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Handling radio buttons</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Form submission</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Form validation basics</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -677,27 +696,27 @@
 		<table>
 			<tr>
 				<td>What is useEffect?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Running effects after render</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Dependency array</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Effect cleanup</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>useEffect for data fetching</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Common useEffect patterns</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -707,23 +726,23 @@
 		<table>
 			<tr>
 				<td>Breaking UI into components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Container vs presentational components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Lifting state up</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Passing callbacks as props</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Component reusability</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -733,23 +752,23 @@
 		<table>
 			<tr>
 				<td>Inline styles</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>CSS modules</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Tailwind CSS basics</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Conditional classes</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Dynamic styles</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -768,23 +787,23 @@
 		<table>
 			<tr>
 				<td>Create a Next.js app (<code>npx create-next-app@latest</code>)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Project structure understanding</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>App Router vs Pages Router (focus on App Router)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Running dev server</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Building for production</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -792,31 +811,31 @@
 		<table>
 			<tr>
 				<td>File-based routing</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Creating pages</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Nested routes (folders)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Dynamic routes <code>[id]</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Linking between pages (<code>&lt;Link&gt;</code>)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>useRouter()</code> hook</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Route groups</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -826,19 +845,19 @@
 		<table>
 			<tr>
 				<td>Root layout</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Nested layouts</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Creating reusable layouts</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Layout props (children)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -846,19 +865,19 @@
 		<table>
 			<tr>
 				<td>Global styles</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>CSS Modules in Next.js</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Tailwind CSS setup (if not already)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Using Tailwind utility classes</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -866,19 +885,19 @@
 		<table>
 			<tr>
 				<td><code>&lt;Image&gt;</code> component</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Image optimization</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Local vs remote images</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Serving static files from <code>/public</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -888,27 +907,27 @@
 		<table>
 			<tr>
 				<td>What are Server Components?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>What are Client Components?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>When to use each</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>'use client'</code> directive</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Data fetching in Server Components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Interactivity requires Client Components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -916,27 +935,27 @@
 		<table>
 			<tr>
 				<td>Fetching data in Server Components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>async</code> components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Using <code>fetch()</code> in Next.js</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Caching behavior</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Loading states</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Error handling</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -946,15 +965,15 @@
 		<table>
 			<tr>
 				<td>Fetching data based on route params</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>generateStaticParams()</code> for static generation</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Dynamic segments</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -966,31 +985,31 @@
 		<table>
 			<tr>
 				<td>Creating API routes in <code>app/api/</code></td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Handling GET requests</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Handling POST requests</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Request and response objects</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Returning JSON</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Status codes</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Error handling in API routes</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1000,19 +1019,19 @@
 		<table>
 			<tr>
 				<td><code>.env.local</code> file</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Accessing environment variables</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Server-only vs client-accessible variables</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Security best practices</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1020,31 +1039,31 @@
 		<table>
 			<tr>
 				<td>What is a relational database?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Setting up a free database (Supabase or Vercel Postgres)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Tables, rows, and columns</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Primary keys</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Basic SQL: SELECT, INSERT, UPDATE, DELETE</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>WHERE clauses</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Basic JOINs</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1052,35 +1071,35 @@
 		<table>
 			<tr>
 				<td>What is an ORM?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Installing Prisma</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Prisma schema</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Defining models</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Migrations</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Prisma Client</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>CRUD operations with Prisma</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Relations in Prisma</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1091,27 +1110,27 @@
 		<table>
 			<tr>
 				<td>What are Server Actions?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Creating Server Actions</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Using Server Actions in forms</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>useFormState()</code> hook</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Form validation with Server Actions</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Revalidating data</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1121,39 +1140,39 @@
 		<table>
 			<tr>
 				<td>What is authentication?</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Sessions vs tokens</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Password hashing</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Using an auth library (NextAuth.js / Auth.js)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Sign up functionality</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Login functionality</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Logout functionality</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Protected routes</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Session management</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1163,23 +1182,23 @@
 		<table>
 			<tr>
 				<td>Server-side validation</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Client-side validation</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Form libraries (React Hook Form)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Displaying errors</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Loading states during submission</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1191,23 +1210,23 @@
 		<table>
 			<tr>
 				<td>Handling file uploads in API routes</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Using cloud storage (Cloudinary or Uploadthing)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Image uploads with preview</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>File type validation</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>File size limits</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1215,23 +1234,23 @@
 		<table>
 			<tr>
 				<td>Understanding payment flows</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Stripe basics</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Creating payment intents</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Stripe Checkout</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Webhooks for payment confirmation</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1241,19 +1260,19 @@
 		<table>
 			<tr>
 				<td>Sending emails from Next.js</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Using email services (Resend or SendGrid)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Transactional emails</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Email templates</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1261,19 +1280,19 @@
 		<table>
 			<tr>
 				<td>Implementing search</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Debouncing search input</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Full-text search with databases</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Search UI patterns</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1283,27 +1302,27 @@
 		<table>
 			<tr>
 				<td>Metadata API in Next.js</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Dynamic meta tags</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Open Graph images</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Sitemaps</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>robots.txt</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Structured data</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1311,23 +1330,23 @@
 		<table>
 			<tr>
 				<td>Understanding Web Vitals</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Code splitting</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Lazy loading components</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Image optimization review</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Caching strategies</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1335,23 +1354,23 @@
 		<table>
 			<tr>
 				<td><code>error.js</code> files</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td><code>loading.js</code> files</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Custom 404 pages</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Error boundaries</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Toast notifications</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1361,27 +1380,27 @@
 		<table>
 			<tr>
 				<td>Git basics (if not already comfortable)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Creating repositories</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Commits and commit messages</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Pushing to GitHub</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Branches (basic understanding)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>.gitignore files</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1389,27 +1408,27 @@
 		<table>
 			<tr>
 				<td>Creating a Vercel account</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Connecting GitHub repository</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Automatic deployments</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Environment variables in Vercel</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Custom domains</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Preview deployments</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1419,19 +1438,19 @@
 		<table>
 			<tr>
 				<td>Using production databases</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Connection pooling</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Database migrations in production</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Backing up databases</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1439,15 +1458,15 @@
 		<table>
 			<tr>
 				<td>Vercel Analytics</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Error tracking (Sentry basics)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Understanding logs</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1455,19 +1474,19 @@
 		<table>
 			<tr>
 				<td>Purchasing domains</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Connecting custom domains to Vercel</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>DNS basics</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>SSL certificates (automatic with Vercel)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1518,23 +1537,23 @@
 		<table>
 			<tr>
 				<td>Showcase your best 3-4 projects</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Write case studies (problem, solution, results)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Professional about page</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Clear contact information</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Testimonials section (even if from practice projects)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1542,23 +1561,23 @@
 		<table>
 			<tr>
 				<td>Understanding project pricing</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Hourly vs fixed-price</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Creating project proposals</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Scope of work documents</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Payment terms</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1566,23 +1585,23 @@
 		<table>
 			<tr>
 				<td>Asking the right questions</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Setting expectations</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Progress updates</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Handling feedback</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Managing scope creep</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1590,23 +1609,23 @@
 		<table>
 			<tr>
 				<td>Local business outreach</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Networking</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Freelance platforms (Upwork, etc.)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Cold emailing</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Referrals</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
@@ -1614,19 +1633,19 @@
 		<table>
 			<tr>
 				<td>Following industry trends</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>JavaScript/React/Next.js updates</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Learning from other developers</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 			<tr>
 				<td>Contributing to open source (optional)</td>
-				<td><span class="ballot-empty">&#9744;</span></td>
+				<td><span class="zero"></span></td>
 			</tr>
 		</table>
 
