@@ -3,12 +3,13 @@
 body {
     background-color: var(--bg-color);
     color: var(--fg-color);
-    font-family: "WorkSans-Light", monospace;
+    font-family: "EBGaramond12-Regular", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.25rem;
     line-height: 1.5;
     text-align: justify;
+    letter-spacing: 1px;
 }
 strong {
     color: var(--accent-color);
@@ -28,13 +29,13 @@ header {
     padding: 2px 10px;
 }
 h1, h2, h3 {
-    font-family: "BluuNext-Bold", serif;
+    font-family: "EBGaramond12-Regular", serif;
     font-weight: 600;
     font-style: normal;
     text-align: center;
 }
 h4 {
-    font-family: "BluuNext-Bold", serif;
+    font-family: "EBGaramond12-Regular", serif;
     font-size: 1.5rem;
 }
 h1 {
@@ -148,6 +149,7 @@ hr.header-bottom {
     font-weight: regular;
     font-style: normal;
 }
+
 @media screen and (max-width: 57rem){
     main {
         padding-left: 1rem;
