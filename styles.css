@@ -6,7 +6,7 @@ body {
     font-family: "EBGaramond12-Regular", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     text-align: justify;
     letter-spacing: 1px;
@@ -151,6 +151,9 @@ hr.header-bottom {
 }
 
 @media screen and (max-width: 57rem){
+    body {
+        font-size: 1.25rem;
+    }
     main {
         padding-left: 1rem;
         padding-right: 1rem;
@@ -162,4 +165,16 @@ hr.header-bottom {
     nav h3 {
         font-size: 1.2rem;        
     }
+    h4 {
+    font-size: 1.25rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+}
 }
