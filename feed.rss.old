@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Kalevalla.xyz</title>
+<description>Articles and blog entries from kalevalla.xyz.</description>
+<link>https://www.kalevalla.xyz</link>
+<language>en-us</language>
+<lastBuildDate>Mon, 25 Sep 2025 00:00:00 GMT</lastBuildDate>
+<generator>Custom RSS Generator</generator>
+
+<item>
+    <title>Aprender con IA</title>
+    <pubDate>Wed, 25 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[
+        <figure>
+            <img src="file:///home/pablo/kalevalla.xyz/images/ai-learning.webp" alt="A robot and a human shaking hands">
+            </figure>
+            <p>
+                Una cosa genial que te permite la IA es voltear por completo el proceso de aprendizaje. Aprender 100% de lo general a lo particular. Cuando aprendemos en la escuela el enfoque siempre es el contrario, de lo particular a lo general; primero aprende los diferentes sonidos de cada letra, luego aprende a leer y escribir las letras, luego palabras cortas, cada vez más largas, luego enunciados simples, párrafos, textos cortos... y así.
+            </p>
+            <p>
+                Por ejemplo, digamos que quiero aprender programación para desarrollo web. Bajo el modelo tradicional, primero tengo que aprender poquito a poquito los principios más básicos de HTML, luego CSS, creando paginitas super inútiles que poquito a poquito se van viendo cada vez menos feas, luego un poquito interactivas con JavaScript, pero todavía no particularmente útiles; luego, según tu interés, que si bases de datos, o más JavaScript, o servidores, etc, pero tardas muchísimo tiempo en crear algo que realmente puedas sacar al mundo como un producto útil. Y así es como te enseñan todos lo cursos y libros que hay, tanto en línea como presencial. Me consta, llevo como 10 años (con muchas interrupciones) tratando de aprender programación.
+            </p>
+            <p>
+                Con la IA, puedo voltear eso por completo: se me ocurre un proyecto que quisiera hacer y está completamente fuera de mis capacidades. Puedo echarlo a andar con la IA y decirle que me vaya explicando el paso a paso, me va llevando de la mano, pero al final terminamos con un producto totalmente funcional, que puedo compartir, y sí, a lo mejor yo no lo hice tecla por tecla con mis propias manos, pero no por eso dejé de ser parte del proceso y de esa forma vi cómo se creó de principio a fin. Puedo repetir esto cuantas veces quiera y se va solidificando y a lo mejor para el tercer o cuarto proyecto que hago con IA, ya me sé el camino y el proceso cada vez más y voy siendo más independiente o voy creando proyectos más y más complejos.
+            </p>
+            <p>
+                Cada quien tiene una forma distinta u óptima de aprender y creo que para muchos esto se asemeja más a nuestro proceso natural de aprendizaje. Es como cuando aprendiste a andar en bicicleta, probablemente primero tuviste un triciclo, luego una bicicleta con rueditas, finalmente le quitaron las rueditas, pero al pricipio te llevaron sosteniendo la bicicleta un ratito hasta que finalmente te soltaste; en lugar de: primero aprende cómo se llama cada músculo de tus piernas, del tronco, de tus brazos, aprende a controlarlos independientemente, luego pedalea sin bicicleta con una pierna, luego con la otra, luego en conjunto, etc, etc. Es similar. Un proceso así nos ayuda a ver el todo desde el principio y no perderse en las partes. Obviamente, igual nos vamos moviendo de cosas más simples a cosas más complejas, no es que uno empiece a brincar en rampas y dar maromas desde su primer triciclo, pero el punto es que en cada etapa desde el principio hacemos algo que ya <strong>se siente</strong> como andar en bicleta.
+            </p>
+            <p>
+                Especialmente para las personas creativas esto puede ser un enorme beneficio, creo. Muchas personas quieren aprender una habilidaad para sacar de la mente cosas que tienen atoradas ahí desde hace años o cosas que van surgiendo contínuamente y tener que aprender cosita por cosita desde cero para dentro de meses poder sacar algo que a medias... no realmente, pero da el gatazo de lo que tenía en la cabeza, es terriblemente frustrante y por eso abandonamos más proyectos de los que podemos contar. Pero aprendiendo a usar la IA --porque obvio, tambien tiene su curva de aprendizaje para poder sacarle todo el jugo--, esto puede cambiar enormemente.
+            </p>
+            ]]></description>
+        <link>https://kalevalla.xyz/blog/012-aprender-con-ia.html</link>
+        <guid>https://kalevalla.xyz/blog/012-aprender-con-ia.html</guid>
+    </item>
+
+<item>
+    <title>Mean Lean Machine</title>
+    <pubDate>Wed, 18 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[
+        <figure>
+            <img src="https://www.kalevalla.xyz/images/mean-lean-screenshot.webp" alt="Terminal applications screenshot">
+        </figure>
+        <p>
+            Sometimes I like to use terminal apps like WordGrinder, Ranger, or Epy to do tasks that you probably wouldn't associate with doing on a terminal, just by using Linux I do a ton of things on the terminal that most computer users wouldn't do, like installing programs and managing files --of course you don't <em>HAVE</em> to, but it's just part of the fun--, but I go a little further still by reading ebooks on Epy or writing this on WordGrinder. I don't do it just to be minimalist to the extreme, I also don't do it just to feel like a hacker (ok, maybe a little bit of that).
+        </p>
+        <p>
+            Mostly I think I do it because I like what could be called "lean computing"; it's not minimalism because I have nothing against using my computer to do any thing that <em>can</em> be done with a computer, I have nothing against having a UI that looks beautiful and polished (to me, at least); but I just like my software to do exactly what I ask it to do, <strong>no more no less</strong>.
+        </p>
+        <p>
+            In other words, I hate bloat. I think bloat is not just uncomfortable, it's harmful and unethical; it's the reason we don't have the world-saving technology that we were promised since computers became a thing. It makes technology less accessible and it makes it progress not just more slowly but in the wrong direction.
+        </p>
+        <p>
+            Using the computer like this somehow feels more direct, like I'm using the thing in way that it's meant to be used. It's byzantine, I know. Maybe it just amuses me and that's enough.
+        </p>
+        ]]></description>
+    <link>https://www.kalevalla.xyz/blog/011-mean-lean-machine.html</link>
+    <guid>https://www.kalevalla.xyz/blog/011-mean-lean-machine.html</guid>
+</item>
+
+<item>
+    <title>It's the little things</title>
+    <pubDate>Sat, 14 Sep 2025 00:00:00 GMT</pubDate>
+    <description><![CDATA[
+        <figure>
+            <img src="https://www.kalevalla.xyz/images/endeavouros-wallpaper.webp" alt="EndeavourOS wallpaper">
+        </figure>
+        <p>
+            So a couple weeks ago I decided to make one more serious attempt to use vanilla Arch (btw). First I tried to use the Archinstall script because I was more interested in what comes after the bare-bones installation. But it wasn't working for some reason; so ok, I'll do it "the right way", it took me a couple of tries, but I managed to do it. I've been using Claude.AI to coach me throughout the process and it just makes it a lot smoother.
+        </p>
+        <p>
+            Then I moved on to the GUI, I went with Sway, and started doing all the necessary installations and configurations. It's fun, for the most part; I didn't do a lot of "ricing", but just enough to make it comfortable and functional, and nice to look at without being extravagant. I was almost getting to a place where I could call this Arch machine "home".
+        </p>
+        <p>
+            But it's the little things that get you. Like not being able to set up bluetooth to connect automatically to my headphones, or not being able to get some applications like the file manager to go with the dark theme, even when some others like Nitrogen did, or getting the screen backlight keys to work. I know all of this is not impossible but the frustration/reward ratio is just not worth it.
+        </p>
+        <p>
+            I've since replaced the small partition where I had installed Arch with Endeavour OS (Sway community edition), and I gotta say, I've just been using it for a few days now but I have a very good feeling about it. As a kind of intermediary distro, nicely themed, everything functional from the start but with just the essential software pre-installed, ready to build up as you like it, it does a very good job. I'm thinking of using this for a few days and if everything goes well, wipe out the entire disk (pre-installed Windows 11 included) and just have Endeavor on the whole thing.
+        </p>
+        <p>
+            Except for a couple of weird decisions, I am generally very happy with it, but I don't get why, for being a "no bloat" distro they included three different terminals, and why does sway-bar require a gps daemon as a dependency? I don't get it. Other than that, I like it.
+        </p>
+        <p>
+            I don't wanna distro-hop forever, but I also haven't quite found a home yet.
+        </p>
+        ]]></description>
+    <link>https://www.kalevalla.xyz/blog/010-its-the-little-things.html</link>
+    <guid>https://www.kalevalla.xyz/blog/010-its-the-little-things.html</guid>
+</item>
+
+<item>
+<title>Is it a habit or a project?</title>
+<pubDate>Mon, 07 Sep 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[
+        <figure>
+            <img src="https://kalevalla.xyz/images/pexels-kyle-miller-169884138-21044341.jpg" alt="">
+            <figcaption><a href="https://www.pexels.com/photo/black-and-white-photography-of-people-on-a-roller-coaster-21044341/" target="_blank">Photo by Kyle  Miller</a></figcaption>
+        </figure>
+        
+        <p>
+            I stopped writing here for almost two weeks. It doesn't sound like that much but I know this is how it starts. I get sucked into a new rabbit hole and now any other project I had before goes to the back seat.
+        </p>
+        <p>
+            So what have I been doing these two weeks then, you ask? Mostly I went into a Linux tangent. I tried installing a couple distros in VirtualBox, didn't work &mdash;I don't know if it's something with with my computer integrated graphics, or someting with Ubuntu 25.04, but they run super slow, even a supposed "light-weight" distro&mdash;, so instead I decided to install a real Arch partition. First I tried using the "Archinstall" script, but weird things kept happening, so I had to go the long route and install it "the right" way &mdash;which took me a couple of tries, but it's not reeeeaaaly THAT hard&mdash;; and then I've spent the next week and a half configuring it. I actually thought about naming my next post here <strong>"Humbly Running Arch (btw)"</strong>. When people talk about how intimidating installing Arch is, they never say this: installing the OS, the bare-bones Arch Linux system, is the easy part (if you follow the installation guide and don't get too crazy with your disk partition setup); the hard part comes later, setting up connections, keyboard, audio, a graphical environment, whether it's a WM or a DE&mdash;especially for a WM&mdash;, configuring it just the way you like it, making the different programs have a consistent theme, setting up bluetooth... OMFG, goddam bluetooth, I'm still struggling to get that to work properly. But it's an awesome learning experience, that's for sure. You get the idea. 
+        </p>
+        <p>
+            But I think maybe that euphoria has tapered down a little. In the process of my Linux customization rabbit-hole, another thing I did was put I3 window manager on Ubuntu, and spent a few days configuring it before I decided to Install Arch with Sway wm. And I actually like this setup a lot... if I can get the f*@!ing bluetooth working properly again! The Arch partition is still there, I did manage to get it to a point where it's maybe 85% functional and even comfortable to use; I used it continually for a few days and it felt good. But it's the little things that make it unsustainable in the long term... like the mother-f@!$%ng bitch-tooth.
+        </p>
+        <p>
+            But besides slowing down down a little on the Linux roller coaster, I have a new old project. Just before that, and this, I was trying to get ChatGPT to teach me PHP. Now I've changed ChatGPT for Claude.ai, which I hear is better with all things programming. But it's not just generically teaching me php, I am developing something like a full ebook/course, it's hand-on, project-based and has (or will have) something of an innovative twist that I think will help a lot in bridging the gap between learner and developer and even avoid tutorial hell alltogether. I'm even making it open-source. I'm excited about this project, you can learn more about it <a href="https://github.com/PSGrobet/modern-php-course" target="_blank" rel="nofollow">here</a>.
+        </p>
+        <p>
+            Anyway, regarding the main question from the title, I was thinking about this blog, it started as a project. Like I wrote in the intro, it spawned from a question whether I was able to host a propper domain in github pages, and it didn't need to, but it sort of naturally gravitated towards being a blog. But I want it to be more of a habit. Not because of any following or interaction but because I find it very amusing to track my many trains of thought.
+        </p>
+        <p>
+            So it's a project to turn this into a habit, while I try really hard to not to let my other projects die (mainly the php course, the Linux ricing thing can take a back seat.)
+        </p>
+]]></description>
+<link>https://www.kalevalla.xyz/blog/009-habit-or-project.html</link>
+<guid>https://www.kalevalla.xyz/blog/009-habit-or-project.html</guid>
+</item>
+
+<item>
+<title>Found a cool plant</title>
+<pubDate>Tue, 27 Aug 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[
+    <figure>
+        <img src="https://www.kalevalla.xyz/images/ricinus_communis.webp" alt="Ricinus communis plant">
+    </figure>
+    <p>
+        I was at a local park with my kids yesterday and I found this plant with big star-shaped leaves and weird squishy spiky seeds just randomly growing in a crack on the concrete and thought I'd use a plant-identifier app to learn more about it. My app identified it as <em>ricinus communis</em> A.K.A. castor oil plant <code>[en español: ricino, castor, higuerilla]</code>. The app itself doesn't give a lot of information but it did hint that it has uses in food, industry and more, and the fact that it has a ton of common names was also interesting —for most plants or animals, you can get a pretty good idea of how important it is for humans from how many names it has.
+    </p>
+    <p>
+        Once I was back home I wanted to read more about it and looked it up on Wikipedia and was surprised to read about all the uses and even history of this plant —mostly the seeds—; it's main product is <strong>castor oil</strong>, which has uses in medicine and industry and seems to date back to Ancient Egypt and India. But it can also produce <strong>ricin</strong> which is a fairly powerful poison, in fact, one of the most potent plant-based poisons, which leaves little to no trace in the body... <strong><em>wait, how the hell does he know that?</em></strong> Because of <em><a href="https://breakingbad.fandom.com/wiki/Ricin" target="_blank" rel="nofollow">Breaking Bad</a></em> of course. It was used by the Mussolini regime in Italy and the Franco regime in Spain to torture dissidents, and was, allegedly, used by the KGB to assasinate Bulgarian defector Georgi Markov in London in 1978: a man shot a tiny pellet filled with ricin from a modified umbrella-gun at Markov's thigh while he was waiting at the bus stop —very spy-movie style— and he died 4 days later. But the oil has beneficial uses in industry, from lubrication to varnishing and is used in many traditional medicines, mostly as a laxative. The extract is used as pesticide. The leaves are also used to dye textiles and feed silkworms, and the seeds are used to make jewelry.
+    </p>
+    <p>
+        Pretty cool plant indeed. Which makes it a little surprising to find just casually growing in a public park in my sketchy neighborhood in <code>[REDACTED]</code> City.
+    </p>
+    <hr>
+    <p><code>PS:</code> I think I finally got the <a href="https://www.kalevalla.xyz/feed.rss">RSS</a> feed to work now, feel free to add it to your favorite reader!</p>
+]]></description>
+<link>https://www.kalevalla.xyz/blog/008-found-a-cool-plant.html</link>
+<guid>https://www.kalevalla.xyz/blog/008-found-a-cool-plant.html</guid>
+</item>
+
+<item>
+<title>Remodelling Soon</title>
+<pubDate>Mon, 26 Aug 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[
+    <p>
+        I'm thinking I have gathered enough blog posts here that it's probably worth it to switch to a more normal blog format, with an index and separate page for each blog entry; easier to share independently, more structured and whatnot, and I think it's also better for RSS sharing, which I want to implement soon.
+    </p>
+    <p>
+        That implies a bit of work restructuring the site and links, and all that, so it might take me a couple days (or a couple hours, depending on how much my job interferes with my hobby). I will say, hosting this on Git and being able to update everything with just a git push is awesome; the downside is I can't have any kind of backend, and I've been learning some PHP, and thinking about setting up some kind of comment box, or something like that.
+    </p>
+]]></description>
+<link>https://www.kalevalla.xyz/blog/007-remodelling-soon.html</link>
+<guid>https://www.kalevalla.xyz/blog/007-remodelling-soon.html</guid>
+</item>
+
+<item>
+<title>Average Ubuntu Enjoyer</title>
+<pubDate>Tue, 20 Aug 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[
+    <p>
+        I was just thinking of how there are these Distros that are seen as "for beginners", "too easy", etc, and others that are seen like "real serious Linux". And, well, I've been using Linux as my "daily driver" OS for the past, I think, 5 or 6 years now, more than the average Linux user, and I've come back to Ubuntu. Part of it was that I have a new laptop and I was little afraid to mess it up by installing something exotic and weird. But honestly, I'm enjoying it. I just works. I have more interesting things to do with my time, than fighting through endless config files in a ton of different programming languages just to display a minimize button on a window or to get the bluetooth to work, or whatever. Don't worry, I'm still learning a ton about Linux, but that's just what I choose to do with my computer; any other user might choose to just play games and log in to Discord and watch YouTube, or do some actual work on something unrelated where they just need a reliable functional OS, but have their own reasons for not using Windows or Mac; and they will choose Ubuntu, Mint or Pop!_OS, because it would be nearly impossible for someone who is non-technical —by this I mean that they have no interest in learning; everybody has the capacity, but not the interest— to accomplish that with any other distro.
+    </p>
+    <p>And that's fine.</p>
+    <p>This is Linux. It's all about the freedom to do what you want with your machine, no more, no less, have the tech work for you and not you working for the tech.</p>
+    <p>It's all about the freedom.</p>
+]]></description>
+<link>https://www.kalevalla.xyz/blog/006-average-ubuntu-enjoyer.html</link>
+<guid>https://www.kalevalla.xyz/blog/006-average-ubuntu-enjoyer.html</guid>
+</item>
+
+<item>
+<title>Give me the ads but keep the trackers</title>
+<pubDate>Mon, 12 Aug 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[
+    <p>
+        Some people complain that the internet started going to shit when every page started displaying ads. Well, it couldn't just be free forever, right? There are millions of websites out there that are not really trying to sell you anything, just share information. I do believe that, genuinely, some people just want to share their knowledge and opinions and engage with other like-minded people. But that information still has a value and there is also a cost to broadcast it. I also believe in the right to monetize what you know, so if you know a lot about plants and want to write a website about that, why shouldn't you make some money off of it?
+    </p>
+    <p>
+        Now, the question is how that money is made. I believe there are ethical ways to make money and there are unethical ways to make it; it boils down to a simple principle: consent.
+    </p>
+    <p>
+        If you are just showing the reader a few ads in your page, the reader can see them and dismiss them and keep on reading the content, and maybe there's a 0.01% chance that they'll click on the ad if it's something they are interested in; there is still consent here. It's a small chance, but with enough readers, that small percentage makes the ad worth it for the advertiser. As soon as you start adding trackers behind the ads, there is no more consent because the reader doesn't know they are being tracked, or doesn't know to what extent and what is being done with their information. Whether they click on the ad or not, it doesn't really matter anymore, value has already been extracted from them. The reader has become the product. Many websites don't even bother having ads now because a) they know that most users have some form of ad-block extension; and b) they can get more value out of you by selling your data than on the small chance you'll click on an ad.
+    </p>
+    <p>
+        See, the problem is not with the ads themselves, it's what's behind them. I would much rather open a web page and see a few ads for unrelated things that may or may not be interesting to me and know that that's all there is to it, than to have this feeling that wherever I go, whatever I do, I'm being followed, observed, every click analyzed, and likely even manipulated by algorithms; that not just the ads, but the content itself is algorithmically designed for maximum engagement.
+    </p>
+    <p>
+        I miss the old days when you would open a page, see a banner ad at the top and another one in the middle; maybe there was a 0.01% chance that the ad was for something you might actually care about and would click on it and if not you just had the choice to dismiss them and keep reading the content. It seems like even that choice has been taken away from us. Of course, part of the reason we all started using ad-blockers was because those ads just became too much. I mean, on a regular page with ads, almost half of the space in the page is ad-space. That's too much. But you get my point.
+    </p>
+]]></description>
+<link>https://www.kalevalla.xyz/blog/005-keep.the.trackers.html</link>
+<guid>https://www.kalevalla.xyz/blog/005-keep.the.trackers.html</guid>
+</item>
+
+<item>
+<title>Recovering Engagement-o-Holic</title>
+<pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[
+    <p>
+        One of these days I'm going to pay for a proper hosting service just so I can set up a php form so that you, my awesome reader, can send me a message and tell me how much my writing means to you.
+    </p>
+    <p>
+        Of course I know that's probably not going to happen, that's my Social Media addicted brain speaking. Who is even reading this any way? It is a little hard to write things that, in many ways, mean a lot to me, and have zero idea who reads it, zero dopamine reward; there's no "like", no comments, not even a basic web traffic metric. Is this how it used to be before? Am I just talking to the void? "Aaaaaaaaaaaaaaah!" Is the void looking back? "Hello, Void!". But in another way it's easier to write like nobody's reading, it's liberating.
+    </p>
+    <p>
+        I have a Neocities.org page that I opened about a year and a half ago that I've spent a lot of time at, wrote a bunch of things that I'm proud of and in that time managed to get 9 followers. It seems like nothing, but it probably isn't. Besides the engagement (or lack thereof), I am grateful that it gave me a lot of motivation to write more and to search out for other small-web/indie-web pages and communities. It's also just fun. The small engagement features it has —even if they are very diluted compared to a bigger social network and it certainly helps with the transition— still make it, in the end, a sort of walled garden, although with a low wooden fence, not a big stone wall... But anyway, bad metaphors apart, I am now completely free from that, now I'm just floating in the wide open sea of the Web, throwing my message in a bottle.
+    </p>
+]]></description>
+<link>https://www.kalevalla.xyz/blog/004-engagement.html</link>
+<guid>https://www.kalevalla.xyz/blog/004-engagement.html</guid>
+</item>
+
+<item>
+<title>Wake up, it's 1995</title>
+<pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[
+    <p>
+        I saw this image last night and the first thing I thought was that I would run to the computer downstairs and get on the Internet and start learning more about it, maybe start learning how to program and create web pages. I was 8 in 1995. I mentioned before that I grew up with some awareness of what the Internet was, or at least that it existed, but I didn't really care too much about it. Maybe I was just too young, or wasn't geeky enough. Shame on me.
+    </p>
+    <p>
+        The thing is, I've come to the realization that what the small web / old web means to me is more than just nostalgia. You see, as an older millennial, I'll be part of the last generation to remember a world without the internet. And more specifically, even though it existed before, I might say that the mass adoption of the Internet hit me at the same time as puberty/adolescence —what that means exactly I'm not sure, but such a big societal change happening in synchronicity with such an important milestone in life surely has some significance to a person's character.
+    </p>
+    <p>
+        For all that, I've come to the realization that because I had the privilege to know the Internet as it was in the beginning I feel maybe a little bit of responsibility to preserve at least a part of it, or to try to keep the original spirit alive —whatever that is exactly, not sure, I'm still discovering it.
+    </p>
+]]></description>
+<link>https://www.kalevalla.xyz/blog/003-its-1995.html</link>
+<guid>https://www.kalevalla.xyz/blog/003-its-1995.html</guid>
+</item>
+
+<item>
+<title>¿Entonces estoy en contra de la IA?</title>
+<pubDate>Wed, 31 Jul 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[
+    <p>
+        En una lectura inicial de la entrada anterior, podría parecer a primera vista que estoy en contra de usar programas de inteligencia artificial, que opino que de alguna manera equivale a "hacer trampa". No del todo. Tal vez es necesario matizar eso un poco.
+    </p>
+    <p>
+        Por un lado, sí, estrictamente hablando, lo podríamos llamar "hacer trampa". Porque el hecho objetivo es que cualquier contenido que creaste con IA, tus neuronas se tomaron un descanso, además creo que es muy peligroso, no necesariamente por escenarios tipo Terminator --ese es otro tema aparte--, lo digo simplemente porque a la larga se nos va a atrofiar el cerebro si no lo usamos.
+    </p>
+    <p>
+        Pero por el otro lado pienso precisamente que si usamos bien estas herramientas, nos abren un universo de posibilidades que de otra forma podía ser inalcanzable para uno. Pero la cuestión crítica es justamente qué es eso de "usarlas bien".
+    </p>
+    <p>
+        Eso puede ser un tanto subjetivo, pero en la base de todo creo que está esta idea: hay que usarlas como herramientas para construir cosas nuevas, pero lo más importante es no dejar de aplicar nuestro pensamiento crítico, asegurarnos de ser nosotros quienes lleven la conversación, que no sea la IA la que al mismo tiempo propone y construye. Y, personalmente, el mejor uso que yo le he encontrado es para aprender habilidades nuevas, y eso a veces también incluye construir algo desde cero, casi completamente guiado por la IA, pero ahí también la clave está en mantener la conversación en el punto crítico donde la IA me está proponiendo cosas apenas un poco fuera de mi alcance, en el "umbral de aprendizaje" correcto: no tan abajo que no aprenda nada nuevo, pero tampoco tan elevado que no entienda nada de lo que está pasando.
+    </p>
+]]></description>
+<link>https://www.kalevalla.xyz/blog/002-contra-IA.html</link>
+<guid>https://www.kalevalla.xyz/blog/002-contra-IA.html</guid>
+</item>
+
+<item>
+<title>Is the Internet dead?</title>
+<pubDate>Mon, 29 Jul 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[
+    <p>
+        Have you heard of "the dead Internet theory"? The basic argument is that now, or eventually, most of the content circulating in the Internet is generated by AI or bots, and not only that, but even most of the supposed engagement is also bots just interacting with each other.
+    </p>
+    <p>
+        There are many aspects to it, and it can be easily misunderstood. But here's just a random thought about it all:
+    </p>
+    <p>
+        Just because a lot of the content you read or watch in social media is generated using AI LLM's or image generators, does that mean that the Internet is dead?
+    </p>
+    <p>
+        After all, there is still someone using their creativity to prompt the AI, right?
+    </p>
+    <p>
+        Well, sometimes. You can just as easily prompt ChatGPT with something like "Write the next viral Twitter thread that will get me all the engagement". And it'll come up with something inflammatory and controversial without you even having to decide on the general topic. You could ask it to write about something more specific, like "write a thread about climate change considering the findings of doctor such and such, defending the argument that it's mostly a scam." It's based on your idea, sure, but the choice of words, the dissecting and structuring of the particular points within the subject, are not, not really, as much as you try to prompt engineer the text.
+    </p>
+    <p>
+        The crafting of ideas matters.
+    </p>
+    <p>
+        So yeah, maybe, the Internet is dead and all of us here at the small web are basically just the post-mortem knee jerking of the cadaver.
+    </p>
+]]></description>
+<link>https://www.kalevalla.xyz/blog/001-is-the-internet-dead.html</link>
+<guid>https://www.kalevalla.xyz/blog/001-is-the-internet-dead.html</guid>
+</item>
+
+<item>
+<title>The Free Web - a manifesto</title>
+<pubDate>Sun, 28 Jul 2025 00:00:00 GMT</pubDate>
+<description><![CDATA[Web Renaissance, Web Revival, Small-Web, Retro Web, Indie Web, Personal Web, Web0, Web 3.0... What's this all about anyway?]]></description>
+<link>https://www.kalevalla.xyz/the-free-web.html</link>
+<guid>https://www.kalevalla.xyz/the-free-web.html</guid>
+</item>
+
+</channel>
+</rss>
