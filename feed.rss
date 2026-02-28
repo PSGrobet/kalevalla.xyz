@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://kalevalla.xyz/blog</id>
   <title>kalevalla.xyz</title>
-  <updated>2026-02-28T16:42:42.261050+00:00</updated>
+  <updated>2026-02-28T17:32:00.676937+00:00</updated>
   <author>
     <name>ese_grobet</name>
     <email>ese_grobet@disroot.org</email>
@@ -15,7 +15,8 @@
   <entry>
     <id>https://kalevalla.xyz/blog/021-everything-ive-ever-written.html</id>
     <title>Everything I've Ever Written</title>
-    <updated>2026-02-28T16:42:42.261163+00:00</updated>
+    <updated>2026-02-28T17:32:00.677024+00:00</updated>
+    <content src="https://kalevalla.xyz/blog/021-everything-ive-ever-written.html"/>
     <link href="https://kalevalla.xyz/blog/021-everything-ive-ever-written.html"/>
   </entry>
 </feed>
